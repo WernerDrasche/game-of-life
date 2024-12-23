@@ -1,0 +1,2 @@
+#!/usr/local/bin/bash
+clang++ -g --std=c++2a -L/usr/local/lib -L. -lsfml-graphics -lsfml-window -lsfml-system -lnfd main.cpp -o game && ./game
